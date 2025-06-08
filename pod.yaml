@@ -2,9 +2,9 @@ apiVersion: V1
 kind: Pod
 metadata:
   name: mycart-app
-  spec:
+spec:
   containers:
-        name: capco-contanerPort
-        images: saravanan1712/sre-test-image:1.0
-        ports:
-          - containerPort: 3015
+    - name: capco-contanerPort
+      images: saravanan1712/sre-test-image:1.0
+      ports:
+        - containerPort: 3015
