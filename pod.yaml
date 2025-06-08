@@ -2,10 +2,10 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: mycart-app
-  namespace: saravanan
+  namespace: saravanan-ns
 spec:
   containers:
     - name: capco-container
-      images: saravanan1712/sre-test-image:1.0
+      image: saravanan1712/sre-test-image:1.0
       ports:
         - containerPort: 3015
