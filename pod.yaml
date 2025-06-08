@@ -4,7 +4,7 @@ metadata:
   name: mycart-app
 spec:
   containers:
-    - name: capco-contaneport
+    - name: capco-container
       images: saravanan1712/sre-test-image:1.0
       ports:
         - containerPort: 3015
